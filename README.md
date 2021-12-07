@@ -2,6 +2,22 @@
 
 Code is generated from the swagger file.
 
+# Usage #
+
+Build a configuration using your tenant and API token:
+
+```haskell
+let conf = Configuration "https://<tenant>.weclapp.com/webapp/api/v1/" (apiTokenSecurityScheme "YOUR-API-TOKEN")
+```
+
+*Note* The security scheme `apiTokenSecurityScheme` is defined in a separate module
+`WeclappAPI.Extra` which is not exported in the `WeclappAPI` module.
+
+Then you can run a query like this:
+```haskell
+runWithConfiguration conf $ get_article mkGet_articleParameters
+```
+
 # Generation of Client Code #
 
 To obtain the OpenAPI 3 spec of the API (taken from
