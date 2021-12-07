@@ -1,0 +1,13 @@
+module WeclappAPI.Types.PurchaseOrderStatusHistory where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data PurchaseOrderStatusHistory
+instance Show PurchaseOrderStatusHistory
+instance Eq PurchaseOrderStatusHistory
+instance FromJSON PurchaseOrderStatusHistory
+instance ToJSON PurchaseOrderStatusHistory
+data PurchaseOrderStatusHistoryStatus'
+instance Show PurchaseOrderStatusHistoryStatus'
+instance Eq PurchaseOrderStatusHistoryStatus'
+instance FromJSON PurchaseOrderStatusHistoryStatus'
+instance ToJSON PurchaseOrderStatusHistoryStatus'

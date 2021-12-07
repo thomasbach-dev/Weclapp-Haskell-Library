@@ -1,0 +1,8 @@
+module WeclappAPI.Types.PurchaseShippingCostItem where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data PurchaseShippingCostItem
+instance Show PurchaseShippingCostItem
+instance Eq PurchaseShippingCostItem
+instance FromJSON PurchaseShippingCostItem
+instance ToJSON PurchaseShippingCostItem

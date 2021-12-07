@@ -1,0 +1,13 @@
+module WeclappAPI.Types.FulfillmentProvider where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data FulfillmentProvider
+instance Show FulfillmentProvider
+instance Eq FulfillmentProvider
+instance FromJSON FulfillmentProvider
+instance ToJSON FulfillmentProvider
+data FulfillmentProviderFulfillmentProviderType'
+instance Show FulfillmentProviderFulfillmentProviderType'
+instance Eq FulfillmentProviderFulfillmentProviderType'
+instance FromJSON FulfillmentProviderFulfillmentProviderType'
+instance ToJSON FulfillmentProviderFulfillmentProviderType'

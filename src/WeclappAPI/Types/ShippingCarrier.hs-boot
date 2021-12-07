@@ -1,0 +1,13 @@
+module WeclappAPI.Types.ShippingCarrier where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data ShippingCarrier
+instance Show ShippingCarrier
+instance Eq ShippingCarrier
+instance FromJSON ShippingCarrier
+instance ToJSON ShippingCarrier
+data ShippingCarrierInternalShippingCarrier'
+instance Show ShippingCarrierInternalShippingCarrier'
+instance Eq ShippingCarrierInternalShippingCarrier'
+instance FromJSON ShippingCarrierInternalShippingCarrier'
+instance ToJSON ShippingCarrierInternalShippingCarrier'

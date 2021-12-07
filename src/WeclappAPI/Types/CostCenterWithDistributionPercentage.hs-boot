@@ -1,0 +1,8 @@
+module WeclappAPI.Types.CostCenterWithDistributionPercentage where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data CostCenterWithDistributionPercentage
+instance Show CostCenterWithDistributionPercentage
+instance Eq CostCenterWithDistributionPercentage
+instance FromJSON CostCenterWithDistributionPercentage
+instance ToJSON CostCenterWithDistributionPercentage

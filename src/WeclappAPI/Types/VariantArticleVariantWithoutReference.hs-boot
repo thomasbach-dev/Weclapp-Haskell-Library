@@ -1,0 +1,8 @@
+module WeclappAPI.Types.VariantArticleVariantWithoutReference where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data VariantArticleVariantWithoutReference
+instance Show VariantArticleVariantWithoutReference
+instance Eq VariantArticleVariantWithoutReference
+instance FromJSON VariantArticleVariantWithoutReference
+instance ToJSON VariantArticleVariantWithoutReference

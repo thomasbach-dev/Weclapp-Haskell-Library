@@ -1,0 +1,8 @@
+module WeclappAPI.Types.VariantArticleAttribute where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data VariantArticleAttribute
+instance Show VariantArticleAttribute
+instance Eq VariantArticleAttribute
+instance FromJSON VariantArticleAttribute
+instance ToJSON VariantArticleAttribute

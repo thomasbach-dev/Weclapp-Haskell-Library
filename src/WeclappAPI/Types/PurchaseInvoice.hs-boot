@@ -1,0 +1,23 @@
+module WeclappAPI.Types.PurchaseInvoice where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data PurchaseInvoice
+instance Show PurchaseInvoice
+instance Eq PurchaseInvoice
+instance FromJSON PurchaseInvoice
+instance ToJSON PurchaseInvoice
+data PurchaseInvoicePaymentStatus'
+instance Show PurchaseInvoicePaymentStatus'
+instance Eq PurchaseInvoicePaymentStatus'
+instance FromJSON PurchaseInvoicePaymentStatus'
+instance ToJSON PurchaseInvoicePaymentStatus'
+data PurchaseInvoicePurchaseInvoiceType'
+instance Show PurchaseInvoicePurchaseInvoiceType'
+instance Eq PurchaseInvoicePurchaseInvoiceType'
+instance FromJSON PurchaseInvoicePurchaseInvoiceType'
+instance ToJSON PurchaseInvoicePurchaseInvoiceType'
+data PurchaseInvoiceStatus'
+instance Show PurchaseInvoiceStatus'
+instance Eq PurchaseInvoiceStatus'
+instance FromJSON PurchaseInvoiceStatus'
+instance ToJSON PurchaseInvoiceStatus'

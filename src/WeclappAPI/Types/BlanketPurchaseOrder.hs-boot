@@ -1,0 +1,18 @@
+module WeclappAPI.Types.BlanketPurchaseOrder where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data BlanketPurchaseOrder
+instance Show BlanketPurchaseOrder
+instance Eq BlanketPurchaseOrder
+instance FromJSON BlanketPurchaseOrder
+instance ToJSON BlanketPurchaseOrder
+data BlanketPurchaseOrderCalculationMode'
+instance Show BlanketPurchaseOrderCalculationMode'
+instance Eq BlanketPurchaseOrderCalculationMode'
+instance FromJSON BlanketPurchaseOrderCalculationMode'
+instance ToJSON BlanketPurchaseOrderCalculationMode'
+data BlanketPurchaseOrderStatus'
+instance Show BlanketPurchaseOrderStatus'
+instance Eq BlanketPurchaseOrderStatus'
+instance FromJSON BlanketPurchaseOrderStatus'
+instance ToJSON BlanketPurchaseOrderStatus'

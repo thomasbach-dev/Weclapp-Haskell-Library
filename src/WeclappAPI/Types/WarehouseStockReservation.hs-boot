@@ -1,0 +1,8 @@
+module WeclappAPI.Types.WarehouseStockReservation where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data WarehouseStockReservation
+instance Show WarehouseStockReservation
+instance Eq WarehouseStockReservation
+instance FromJSON WarehouseStockReservation
+instance ToJSON WarehouseStockReservation

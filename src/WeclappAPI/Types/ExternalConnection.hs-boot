@@ -1,0 +1,13 @@
+module WeclappAPI.Types.ExternalConnection where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data ExternalConnection
+instance Show ExternalConnection
+instance Eq ExternalConnection
+instance FromJSON ExternalConnection
+instance ToJSON ExternalConnection
+data ExternalConnectionConnectionType'
+instance Show ExternalConnectionConnectionType'
+instance Eq ExternalConnectionConnectionType'
+instance FromJSON ExternalConnectionConnectionType'
+instance ToJSON ExternalConnectionConnectionType'

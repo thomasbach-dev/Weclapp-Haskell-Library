@@ -1,0 +1,18 @@
+module WeclappAPI.Types.AccountingTransactionDetail where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data AccountingTransactionDetail
+instance Show AccountingTransactionDetail
+instance Eq AccountingTransactionDetail
+instance FromJSON AccountingTransactionDetail
+instance ToJSON AccountingTransactionDetail
+data AccountingTransactionDetailDebitCredit'
+instance Show AccountingTransactionDetailDebitCredit'
+instance Eq AccountingTransactionDetailDebitCredit'
+instance FromJSON AccountingTransactionDetailDebitCredit'
+instance ToJSON AccountingTransactionDetailDebitCredit'
+data AccountingTransactionDetailTransactionDetailType'
+instance Show AccountingTransactionDetailTransactionDetailType'
+instance Eq AccountingTransactionDetailTransactionDetailType'
+instance FromJSON AccountingTransactionDetailTransactionDetailType'
+instance ToJSON AccountingTransactionDetailTransactionDetailType'

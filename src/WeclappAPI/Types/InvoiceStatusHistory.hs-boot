@@ -1,0 +1,13 @@
+module WeclappAPI.Types.InvoiceStatusHistory where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data InvoiceStatusHistory
+instance Show InvoiceStatusHistory
+instance Eq InvoiceStatusHistory
+instance FromJSON InvoiceStatusHistory
+instance ToJSON InvoiceStatusHistory
+data InvoiceStatusHistoryStatus'
+instance Show InvoiceStatusHistoryStatus'
+instance Eq InvoiceStatusHistoryStatus'
+instance FromJSON InvoiceStatusHistoryStatus'
+instance ToJSON InvoiceStatusHistoryStatus'

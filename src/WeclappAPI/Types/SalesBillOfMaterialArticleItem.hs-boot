@@ -1,0 +1,8 @@
+module WeclappAPI.Types.SalesBillOfMaterialArticleItem where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data SalesBillOfMaterialArticleItem
+instance Show SalesBillOfMaterialArticleItem
+instance Eq SalesBillOfMaterialArticleItem
+instance FromJSON SalesBillOfMaterialArticleItem
+instance ToJSON SalesBillOfMaterialArticleItem

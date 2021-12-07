@@ -1,0 +1,13 @@
+module WeclappAPI.Types.CommissionSalesPartner where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data CommissionSalesPartner
+instance Show CommissionSalesPartner
+instance Eq CommissionSalesPartner
+instance FromJSON CommissionSalesPartner
+instance ToJSON CommissionSalesPartner
+data CommissionSalesPartnerCommissionType'
+instance Show CommissionSalesPartnerCommissionType'
+instance Eq CommissionSalesPartnerCommissionType'
+instance FromJSON CommissionSalesPartnerCommissionType'
+instance ToJSON CommissionSalesPartnerCommissionType'

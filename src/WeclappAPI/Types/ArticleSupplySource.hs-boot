@@ -1,0 +1,13 @@
+module WeclappAPI.Types.ArticleSupplySource where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data ArticleSupplySource
+instance Show ArticleSupplySource
+instance Eq ArticleSupplySource
+instance FromJSON ArticleSupplySource
+instance ToJSON ArticleSupplySource
+data ArticleSupplySourceTaxRateType'
+instance Show ArticleSupplySourceTaxRateType'
+instance Eq ArticleSupplySourceTaxRateType'
+instance FromJSON ArticleSupplySourceTaxRateType'
+instance ToJSON ArticleSupplySourceTaxRateType'

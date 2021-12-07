@@ -1,0 +1,13 @@
+module WeclappAPI.Types.ArticlePriceWithoutSalesChannel where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data ArticlePriceWithoutSalesChannel
+instance Show ArticlePriceWithoutSalesChannel
+instance Eq ArticlePriceWithoutSalesChannel
+instance FromJSON ArticlePriceWithoutSalesChannel
+instance ToJSON ArticlePriceWithoutSalesChannel
+data ArticlePriceWithoutSalesChannelPriceScaleType'
+instance Show ArticlePriceWithoutSalesChannelPriceScaleType'
+instance Eq ArticlePriceWithoutSalesChannelPriceScaleType'
+instance FromJSON ArticlePriceWithoutSalesChannelPriceScaleType'
+instance ToJSON ArticlePriceWithoutSalesChannelPriceScaleType'

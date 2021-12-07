@@ -1,0 +1,8 @@
+module WeclappAPI.Types.ArticleAlternativeQuantity where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data ArticleAlternativeQuantity
+instance Show ArticleAlternativeQuantity
+instance Eq ArticleAlternativeQuantity
+instance FromJSON ArticleAlternativeQuantity
+instance ToJSON ArticleAlternativeQuantity

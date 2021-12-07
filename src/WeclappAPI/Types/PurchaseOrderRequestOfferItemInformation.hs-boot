@@ -1,0 +1,8 @@
+module WeclappAPI.Types.PurchaseOrderRequestOfferItemInformation where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data PurchaseOrderRequestOfferItemInformation
+instance Show PurchaseOrderRequestOfferItemInformation
+instance Eq PurchaseOrderRequestOfferItemInformation
+instance FromJSON PurchaseOrderRequestOfferItemInformation
+instance ToJSON PurchaseOrderRequestOfferItemInformation

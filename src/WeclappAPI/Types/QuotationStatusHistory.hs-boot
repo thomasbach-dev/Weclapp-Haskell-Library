@@ -1,0 +1,13 @@
+module WeclappAPI.Types.QuotationStatusHistory where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data QuotationStatusHistory
+instance Show QuotationStatusHistory
+instance Eq QuotationStatusHistory
+instance FromJSON QuotationStatusHistory
+instance ToJSON QuotationStatusHistory
+data QuotationStatusHistoryStatus'
+instance Show QuotationStatusHistoryStatus'
+instance Eq QuotationStatusHistoryStatus'
+instance FromJSON QuotationStatusHistoryStatus'
+instance ToJSON QuotationStatusHistoryStatus'

@@ -1,0 +1,13 @@
+module WeclappAPI.Types.FastProductionBookingResult where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data FastProductionBookingResult
+instance Show FastProductionBookingResult
+instance Eq FastProductionBookingResult
+instance FromJSON FastProductionBookingResult
+instance ToJSON FastProductionBookingResult
+data FastProductionBookingResultMessage'
+instance Show FastProductionBookingResultMessage'
+instance Eq FastProductionBookingResultMessage'
+instance FromJSON FastProductionBookingResultMessage'
+instance ToJSON FastProductionBookingResultMessage'

@@ -1,0 +1,13 @@
+module WeclappAPI.Types.PartyHabitualExporterLetterOfIntent where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data PartyHabitualExporterLetterOfIntent
+instance Show PartyHabitualExporterLetterOfIntent
+instance Eq PartyHabitualExporterLetterOfIntent
+instance FromJSON PartyHabitualExporterLetterOfIntent
+instance ToJSON PartyHabitualExporterLetterOfIntent
+data PartyHabitualExporterLetterOfIntentType'
+instance Show PartyHabitualExporterLetterOfIntentType'
+instance Eq PartyHabitualExporterLetterOfIntentType'
+instance FromJSON PartyHabitualExporterLetterOfIntentType'
+instance ToJSON PartyHabitualExporterLetterOfIntentType'

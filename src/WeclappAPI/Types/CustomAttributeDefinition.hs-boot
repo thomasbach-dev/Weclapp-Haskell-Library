@@ -1,0 +1,23 @@
+module WeclappAPI.Types.CustomAttributeDefinition where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data CustomAttributeDefinition
+instance Show CustomAttributeDefinition
+instance Eq CustomAttributeDefinition
+instance FromJSON CustomAttributeDefinition
+instance ToJSON CustomAttributeDefinition
+data CustomAttributeDefinitionAttributeEntityType'
+instance Show CustomAttributeDefinitionAttributeEntityType'
+instance Eq CustomAttributeDefinitionAttributeEntityType'
+instance FromJSON CustomAttributeDefinitionAttributeEntityType'
+instance ToJSON CustomAttributeDefinitionAttributeEntityType'
+data CustomAttributeDefinitionAttributeType'
+instance Show CustomAttributeDefinitionAttributeType'
+instance Eq CustomAttributeDefinitionAttributeType'
+instance FromJSON CustomAttributeDefinitionAttributeType'
+instance ToJSON CustomAttributeDefinitionAttributeType'
+data CustomAttributeDefinitionPublicPageTypes'
+instance Show CustomAttributeDefinitionPublicPageTypes'
+instance Eq CustomAttributeDefinitionPublicPageTypes'
+instance FromJSON CustomAttributeDefinitionPublicPageTypes'
+instance ToJSON CustomAttributeDefinitionPublicPageTypes'

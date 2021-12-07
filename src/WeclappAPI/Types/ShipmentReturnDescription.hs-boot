@@ -1,0 +1,8 @@
+module WeclappAPI.Types.ShipmentReturnDescription where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data ShipmentReturnDescription
+instance Show ShipmentReturnDescription
+instance Eq ShipmentReturnDescription
+instance FromJSON ShipmentReturnDescription
+instance ToJSON ShipmentReturnDescription
