@@ -27,6 +27,7 @@ type Tenant = T.Text
 
 type APIKey = T.Text
 
+mkConfiguration :: Tenant -> APIKey -> Configuration
 mkConfiguration tenant apiKey = mkConfigurationWithFilter tenant apiKey id
 
 apiTokenSecurityScheme :: T.Text -> SecurityScheme
