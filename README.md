@@ -10,6 +10,13 @@ Build a configuration using your tenant and API token:
 let conf = Configuration "https://<tenant>.weclapp.com/webapp/api/v1/" (apiTokenSecurityScheme "YOUR-API-TOKEN")
 ```
 
+or a bit more concise:
+
+```haskell
+import WeclappAPI.Extra (mkConfiguration)
+let conf = mkConfiguration "<tenant>" "YOUR-API-TOKEN"
+```
+
 *Note* The security scheme `apiTokenSecurityScheme` is defined in a separate module
 `WeclappAPI.Extra` which is not exported in the `WeclappAPI` module.
 
